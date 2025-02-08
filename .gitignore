@@ -1,0 +1,46 @@
+# Go build artifacts
+bin/
+pkg/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Go dependency files
+vendor/
+
+# Go workspace file
+go.work
+
+# Go module files
+go.sum
+
+# IntelliJ IDEA project files
+.idea/
+
+# Terraform files
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+
+# Docker files
+*.dockerfile
+docker-compose.yml
+docker-compose.override.yml
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+Thumbs.db
